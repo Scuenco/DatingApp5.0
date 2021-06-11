@@ -17,8 +17,8 @@
           <p>{{member.lastActive}}</p>
         </div>
         <div>
-          <strong>Member since</strong>
-          <p>{{member.created}}</p>
+          <strong>Member Since:</strong>
+          <p>{{member.created | date: 'mediumDate'}}</p>
         </div>
       </div>
       <div class="card-footer">
